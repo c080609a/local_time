@@ -1,3 +1,5 @@
+2015/04/17: Forked т.к. нужен русский язык.
+
 Local Time is a Rails engine with helpers and JavaScript for displaying times and dates to users in their local time. The helpers render a `<time>` element and the JavaScript swoops in to convert and format. The helper output is ideal for caching since it's always in UTC time.
 
 ---
