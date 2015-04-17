@@ -16,8 +16,8 @@ if isNaN Date.parse "2011-01-01T12:00:00-05:00"
       dateString = "#{year}/#{month}/#{day} #{hour}:#{minute}:#{second} GMT#{[offset]}"
     parse dateString
 
-weekdays = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split " "
-months   = "January February March April May June July August September October November December".split " "
+weekdays = "Воскресенье Понедельник Вторник Среда Четверг Пятница Суббота".split " "
+months   = "Январь Февраль Март Апрель Май Июнь Июль Август Сентябрь Октябрь Ноябрь Декабрь".split " "
 
 pad = (num) -> ('0' + num).slice -2
 
